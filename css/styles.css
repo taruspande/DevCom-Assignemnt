@@ -1,0 +1,244 @@
+/*************************************TAG SELECTORS******************************/
+
+body{
+    background-color: #E6E8EB;
+    font-family: 'Montserrat';
+}
+
+h1{
+    font-family: "Merriweather";
+    font-weight: 900;
+    width: 90%;
+}
+
+h2, h3, h4{
+    font-family: "Merriweather";
+    font-weight: 800;
+}
+
+u{
+    text-decoration-color: #f00;
+}
+/*************************************CLASS SELECTORS******************************/
+
+.container-fluid{
+    padding: 0;
+}
+
+.navbar{
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.navbar-brand{
+    font-family: "Merriweather";
+    font-weight: 900;
+}
+
+.brand-text{
+    color: gray;
+    margin-right: 5px;
+}
+
+.nav-item{
+    margin: auto;
+}
+
+.user{
+    border-radius: 50%;
+    border-color: white;
+    margin: auto 1rem;
+}
+
+.filters{
+    background-color: white;
+    text-align: center;
+    padding: 1% 15%;
+}
+
+.filter-buttons{
+    margin: 0.5%;
+    font-family: 'Montserrat';
+    font-weight: 500;
+}
+
+.carousel{
+    position: relative;
+    margin: auto;
+    background-color: white;
+    text-align: center;
+    max-width: 75%;
+    height: auto;
+}
+
+.carousel-item{
+    max-width: 100%;
+    height: auto;
+    /*width: auto;*/
+    padding-top: 7%;
+}
+
+.carousel_btns{
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 10rem;
+    width: 5rem;
+}
+
+.carousel_card{
+    border: 0;
+}
+
+.carousel_imgs{
+    height: 15rem;
+    width: auto;
+    background-color: F2F5F4;
+}
+
+.carousel_txt{
+    background-color: gray;
+    padding: 3% 5%;
+    /*z-index: 1;
+    position: absolute;
+    text-align: left;
+    width: 80%;
+    font-size: 1.8rem;
+    line-height: 1.5;
+    bottom: 1rem;
+    left: 3rem;
+    margin: 0 auto;*/
+}
+
+.carousel_txt p{
+   margin: 0;
+   color: white;
+}
+
+.carousel_txt h4{
+    color: #F2F5F4;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    filter: invert(100%);
+}
+
+.section_headings{
+    text-align: left;
+    padding-bottom: 2%;
+    padding-left: 4rem;
+}
+
+.cta_icon{
+    text-align: right;
+    margin: auto;
+}
+
+.cta_text{
+    padding: 7% 0%;
+}
+
+.cta_heading{
+    color: white;
+    text-align: left;
+    font-size: 3rem;
+}
+
+.input-group{
+    width: 100%;
+}
+
+.sign_up{
+    text-align: left;
+}
+
+.download_cta{
+    text-align: left;
+    margin: 5% 2%;
+    width: 25%;
+    min-width: 176px;
+}
+
+.form-control{
+    margin-right: 1rem;
+}
+
+.footer_icons{
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+}
+
+.cta_container{
+    padding: 3% 4% 3% 10%;
+}
+
+.cta_row_2{
+    padding-top: 3%;
+}
+
+.card_image{
+    background-color: gray;
+    width: auto;
+    height: 10rem;
+}
+
+.card_container{
+    padding: 2% 10%;
+}
+
+.card-body{
+    text-align: left;
+}
+
+.load_more{
+    text-align: center;
+    margin: 0.5% auto;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 1rem;
+    padding: 0.5rem;
+}
+
+/*************************************ID SELECTORS******************************/
+
+#latest{
+    margin: 2rem;
+    text-align: center;
+}
+
+#content{
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+}
+
+#cta{
+    text-align: center;
+    background-color: #161616;
+    padding: 5%;
+}
+
+#footer{
+    text-align: center;
+    padding: 5%;
+}
+
+@media (max-width: 993px){
+    .cta_icon{
+        text-align: center;
+        margin: auto;
+    }
+    .cta_heading{
+        text-align: center;
+    }
+    .cta_container{
+        padding: 3% 25%;
+    }
+    .download_btns{
+        position: relative;
+        left: 2%;
+        width: 80%;
+    }
+    .user{
+        margin: 1rem 0;
+    }
+}

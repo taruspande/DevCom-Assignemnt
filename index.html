@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>News Central</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <script src="https://kit.fontawesome.com/c4e967a659.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Montserrat:wght@100;200;300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <section id="header">
+        <div class="container-fluid">
+
+            <!--Nav Bar-->
+
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark" data-bs-theme="dark">
+                <a class="navbar-brand" href="#"> News<span class="brand-text"> Central</span> <img src="images/favicon-32x32.png" alt="N.C. Icon"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#Toggler1" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="Toggler1">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <input type="search" placeholder="Search...">
+                            <button type="button" class="btn btn-dark btn-sm">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </button>
+                        </li>
+                        <li class="nav-item">
+                            <button type="button" class="btn btn-dark btn-sm user">
+                                <i class="fa-regular fa-user"></i>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <!--Filters-->
+
+            <div class="filters">
+                <div class="row justify-content-md-center">
+                    <button class="btn btn-light btn-sm col-lg-2 col-md-4 col-sm-6 filter-buttons">Live TV</button>
+                    <button class="btn btn-light btn-sm col-lg-2 col-md-4 col-sm-6 filter-buttons">Video</button>
+                    <button class="btn btn-light btn-sm col-lg-2 col-md-4 col-sm-6 filter-buttons">Report</button>
+                    <button class="btn btn-light btn-sm col-lg-2 col-md-4 col-sm-6 filter-buttons">Weather</button>
+                    <button class="btn btn-light btn-sm col-lg-2 col-md-4 col-sm-6 filter-buttons">Business</button>
+                    <button class="btn btn-light btn-sm col-lg-2 col-md-4 col-sm-6 filter-buttons">Entertainment</button>
+                    <button class="btn btn-light btn-sm col-lg-2 col-md-4 col-sm-6 filter-buttons">Technology</button>
+                    <button class="btn btn-light btn-sm col-lg-2 col-md-4 col-sm-6 filter-buttons">Sports</button>
+                    <button class="btn btn-light btn-sm col-lg-2 col-md-4 col-sm-6 filter-buttons">World</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="latest">
+        <div class="section_headings">
+            <h1><u>Latest Ne</u>ws</h1>
+        </div>
+        <div class="container-fluid">
+            <div id="carouselLatestNews" class="carousel slide " data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="row">
+                        <div class="carousel-item active col-lg-12">
+                            <div class="card-image carousel_imgs"></div>
+                            <div class="card-body carousel_txt">
+                                <h4><u>News 1</u>: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tristique senectus et netus et malesuada fames ac turpis egestas. Praesent elementum facilisis leo vel fringilla est ullamcorper eget.</p>           
+                            </div>
+                        </div>
+
+                        <div class="carousel-item col-lg-12">
+                            <div class="card carousel_card">
+                                <div class="card-image carousel_imgs"></div>
+                                <div class="card-body carousel_txt">
+                                    <h4><u>News 2</u>: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tristique senectus et netus et malesuada fames ac turpis egestas. Praesent elementum facilisis leo vel fringilla est ullamcorper eget.</p>           
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item col-lg-12">
+                            <div class="card-image carousel_imgs"></div>
+                            <div class="card-body carousel_txt">
+                                <h4><u>News 3</u>: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tristique senectus et netus et malesuada fames ac turpis egestas. Praesent elementum facilisis leo vel fringilla est ullamcorper eget.</p>           
+                            </div>
+                        </div>
+
+                        <div class="carousel-item col-lg-12">
+                            <div class="card-image carousel_imgs"></div>
+                            <div class="card-body carousel_txt">
+                                <h4><u>News 4</u>: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tristique senectus et netus et malesuada fames ac turpis egestas. Praesent elementum facilisis leo vel fringilla est ullamcorper eget.</p>           
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev carousel_btns" type="button" data-bs-target="#carouselLatestNews" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next carousel_btns" type="button" data-bs-target="#carouselLatestNews" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section id="content">
+        <div class="section_headings">
+            <h1><u>Repor</u>ts</h1>
+        </div>
+        <div class="container-fluid card_container">
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="card">
+                        <div class="card_image"></div>
+                        <div class="card-body">
+                            <h4>Lorem ipsum dolor sit amet.</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <a href="" class="btn btn-danger">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="card">
+                        <div class="card_image"></div>
+                        <div class="card-body">
+                            <h4>Lorem ipsum dolor sit amet.</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <a href="" class="btn btn-danger">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="card">
+                        <div class="card_image"></div>
+                        <div class="card-body">
+                            <h4>Lorem ipsum dolor sit amet.</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <a href="" class="btn btn-danger">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="card">
+                        <div class="card_image"></div>
+                        <div class="card-body">
+                            <h4>Lorem ipsum dolor sit amet.</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <a href="" class="btn btn-danger">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <button type="button" class="btn btn-secondary load_more"><i class="fa-solid fa-arrow-down"></i></button>
+            </div>
+        </div>
+
+        <div class="section_headings">
+            <h1><u>Technolo</u>gy</h1>
+        </div>
+        <div class="container-fluid card_container">
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="card">
+                        <div class="card_image"></div>
+                        <div class="card-body">
+                            <h4>Lorem ipsum dolor sit amet.</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <a href="" class="btn btn-danger">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="card">
+                        <div class="card_image"></div>
+                        <div class="card-body">
+                            <h4>Lorem ipsum dolor sit amet.</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <a href="" class="btn btn-danger">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="card">
+                        <div class="card_image"></div>
+                        <div class="card-body">
+                            <h4>Lorem ipsum dolor sit amet.</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <a href="" class="btn btn-danger">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="card">
+                        <div class="card_image"></div>
+                        <div class="card-body">
+                            <h4>Lorem ipsum dolor sit amet.</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <a href="" class="btn btn-danger">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <button type="button" class="btn btn-secondary load_more"><i class="fa-solid fa-arrow-down"></i></button>
+            </div>
+        </div>
+
+        <div class="section_headings">
+            <h1><u>Business and Econo</u>mics</h1>
+        </div>
+        <div class="container-fluid card_container">
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="card">
+                        <div class="card_image"></div>
+                        <div class="card-body">
+                            <h4>Lorem ipsum dolor sit amet.</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <a href="" class="btn btn-danger">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="card">
+                        <div class="card_image"></div>
+                        <div class="card-body">
+                            <h4>Lorem ipsum dolor sit amet.</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <a href="" class="btn btn-danger">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="card">
+                        <div class="card_image"></div>
+                        <div class="card-body">
+                            <h4>Lorem ipsum dolor sit amet.</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <a href="" class="btn btn-danger">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="card">
+                        <div class="card_image"></div>
+                        <div class="card-body">
+                            <h4>Lorem ipsum dolor sit amet.</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <a href="" class="btn btn-danger">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <button type="button" class="btn btn-secondary load_more"><i class="fa-solid fa-arrow-down"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <section id="cta">
+        <div class="container-fluid cta_container">
+            <div class="row">
+                <div class="col-lg-5 col-sm-12 cta_icon">
+                    <img src="images\postman.png" alt="Postman">
+                </div>
+                <div class="col-lg-7 col-sm-12 cta_text">
+                    <div class="row">
+                        <h3 class="cta_heading">Join our mailing list.</h3>
+                    </div>
+                    <div class="row cta_row_2">
+                        <div class="col-sm-6">
+                            <div class="input-group mb-3">
+                                <input type="text" class="form-control" placeholder="Enter your email..." aria-label="Username" aria-describedby="basic-addon1">
+                            </div>
+                        </div>
+                        <div class="col-sm-6 sign_up">
+                            <button type="button" class="btn btn-danger">Sign Up</button>
+                        </div>
+                    </div>
+                    <div class="row download_btns">
+                        <button type="button" class="btn btn-dark btn-lg download_cta"><i class="fa-brands fa-apple"></i> Download</button>
+                        <button type="button" class="btn btn-outline-light btn-lg download_cta"><i class="fa-brands fa-google-play"></i> Download</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <i class="fa-brands fa-twitter footer_icons"></i>
+        <i class="fa-brands fa-facebook-f footer_icons"></i>
+        <i class="fa-brands fa-instagram footer_icons"></i>
+        <i class="fa-solid fa-envelope footer_icons"></i>
+        <p>© Copyright 2023 News Central</p>
+    </footer>
+</body>
+</html>
