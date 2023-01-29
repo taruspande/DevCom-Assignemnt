@@ -3,6 +3,7 @@
 body{
     background-color: #E6E8EB;
     font-family: 'Montserrat';
+    text-align: center;
 }
 
 h1{
@@ -26,8 +27,7 @@ u{
 }
 
 .navbar{
-    padding-left: 2%;
-    padding-right: 2%;
+    padding: 0.5% 2%;
 }
 
 .navbar-brand{
@@ -63,19 +63,16 @@ u{
 }
 
 .carousel{
-    position: relative;
     margin: auto;
     background-color: white;
-    text-align: center;
-    max-width: 75%;
+    max-width: 65%;
     height: auto;
 }
 
 .carousel-item{
     max-width: 100%;
     height: auto;
-    /*width: auto;*/
-    padding-top: 7%;
+    background-color: #F2F5F4;
 }
 
 .carousel_btns{
@@ -85,28 +82,14 @@ u{
     width: 5rem;
 }
 
-.carousel_card{
-    border: 0;
-}
-
-.carousel_imgs{
-    height: 15rem;
-    width: auto;
-    background-color: F2F5F4;
+.card-image-top{
+    max-width:100%;
+    max-height:100%;
 }
 
 .carousel_txt{
     background-color: gray;
     padding: 3% 5%;
-    /*z-index: 1;
-    position: absolute;
-    text-align: left;
-    width: 80%;
-    font-size: 1.8rem;
-    line-height: 1.5;
-    bottom: 1rem;
-    left: 3rem;
-    margin: 0 auto;*/
 }
 
 .carousel_txt p{
@@ -143,10 +126,6 @@ u{
     font-size: 3rem;
 }
 
-.input-group{
-    width: 100%;
-}
-
 .sign_up{
     text-align: left;
 }
@@ -175,14 +154,26 @@ u{
     padding-top: 3%;
 }
 
-.card_image{
-    background-color: gray;
-    width: auto;
-    height: 10rem;
+.cards{
+    min-height: 100%;
+}
+
+.cards:hover{
+    box-shadow: 3px 5px 7px #C7C7C7;
 }
 
 .card_container{
     padding: 2% 10%;
+}
+
+.carousel_imgs{
+    height: 450px;
+    width: auto;
+}
+
+.news_imgs{
+    height: 174px;
+    width: auto;
 }
 
 .card-body{
@@ -207,29 +198,32 @@ u{
 .info a{
     color: #E6E8EB;
 }
+
+.info a:hover{
+    color: gray;
+}
+
 /*************************************ID SELECTORS******************************/
 
 #latest{
     margin: 2rem;
-    text-align: center;
 }
 
 #content{
     padding: 1rem;
     margin: 1rem;
-    text-align: center;
 }
 
-#cta{
-    text-align: center;
+#cta{ 
     background-color: #161616;
-    padding: 2% 5%;
+    padding: 0% 5% 1% 5%;
 }
 
 #footer{
-    text-align: center;
-    padding: 5%;
+    padding: 2% 5% 1% 5%;
 }
+
+/*************************************MEDIA QUERIES******************************/
 
 @media (max-width: 993px){
     .cta_icon{
@@ -255,5 +249,14 @@ u{
     }
     .cards{
         margin: 0.5rem 0;
+    }
+    .info_col{
+        text-align: left;
+    }
+}
+
+@media (max-width: 380){
+    .carousel_btns{                 /*On mobile sizes touch sliding has been enabled*/
+        display: none;
     }
 }
