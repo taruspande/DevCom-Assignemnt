@@ -198,6 +198,15 @@ u{
     padding: 0.5rem;
 }
 
+.info{
+    color: white;
+    text-align: left;
+    margin: 0 2rem;
+}
+
+.info a{
+    color: #E6E8EB;
+}
 /*************************************ID SELECTORS******************************/
 
 #latest{
@@ -214,7 +223,7 @@ u{
 #cta{
     text-align: center;
     background-color: #161616;
-    padding: 5%;
+    padding: 2% 5%;
 }
 
 #footer{
@@ -240,5 +249,11 @@ u{
     }
     .user{
         margin: 1rem 0;
+    }
+    .info_col{
+        margin: 0.5rem 0;
+    }
+    .cards{
+        margin: 0.5rem 0;
     }
 }
