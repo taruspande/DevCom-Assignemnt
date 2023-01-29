@@ -145,7 +145,7 @@ u{
 }
 
 .cta_container{
-    padding: 3% 4% 3% 10%;
+    padding: 3% 4% 0% 10%;
 }
 
 .cta_row_2{
@@ -183,18 +183,23 @@ u{
     padding: 0.5rem;
 }
 
-.info{
+.info_row{
     color: white;
     text-align: left;
     margin: 0 2rem;
 }
 
-.info a{
+.info_row a{
     color: #E6E8EB;
 }
 
-.info a:hover{
+.info_row a:hover{
     color: gray;
+}
+
+.donate_btn{
+    margin: 1rem 0 1rem 0;
+    width: 60%;
 }
 
 /*************************************ID SELECTORS******************************/
@@ -210,7 +215,12 @@ u{
 
 #cta{ 
     background-color: #161616;
-    padding: 0% 5% 1% 5%;
+    padding: 0% 5% 0% 5%;
+}
+
+#info{
+    background-color: #161616;
+    padding: 0% 2% 1% 2%;
 }
 
 #footer{
@@ -242,19 +252,14 @@ u{
     .user{
         margin: 1rem 0;
     }
+    .info{
+        padding: 1% 2% 1% 2%;;
+    }
     .info_col{
         margin: 0.5rem 0;
     }
     .cards{
         margin: 0.5rem 0;
     }
-    .info_col{
-        text-align: left;
-    }
 }
 
-@media (max-width: 380){
-    .carousel_btns{                 /*On mobile sizes touch sliding has been enabled*/
-        display: none;
-    }
-}
