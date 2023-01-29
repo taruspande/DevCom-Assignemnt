@@ -65,7 +65,7 @@ u{
 .carousel{
     margin: auto;
     background-color: white;
-    max-width: 65%;
+    max-width: 80%;
     height: auto;
 }
 
@@ -90,6 +90,8 @@ u{
 .carousel_txt{
     background-color: gray;
     padding: 3% 5%;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .carousel_txt p{
@@ -99,10 +101,6 @@ u{
 
 .carousel_txt h4{
     color: #F2F5F4;
-}
-
-.carousel-control-prev-icon, .carousel-control-next-icon{
-    filter: invert(100%);
 }
 
 .section_headings{
@@ -152,10 +150,6 @@ u{
 
 .cta_row_2{
     padding-top: 3%;
-}
-
-.cards{
-    min-height: 100%;
 }
 
 .cards:hover{
@@ -226,6 +220,10 @@ u{
 /*************************************MEDIA QUERIES******************************/
 
 @media (max-width: 993px){
+    .carousel_imgs{
+        height: 200px;
+        width: auto;
+    }
     .cta_icon{
         text-align: center;
         margin: auto;
