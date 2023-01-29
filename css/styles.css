@@ -65,13 +65,11 @@ u{
 .carousel{
     margin: auto;
     background-color: white;
-    max-width: 80%;
+    max-width: 70%;
     height: auto;
 }
 
 .carousel-item{
-    max-width: 100%;
-    height: auto;
     background-color: #F2F5F4;
 }
 
@@ -258,5 +256,7 @@ u{
         margin: 0.5rem 0;
     }
 }
+
+@media (min-width:)
 
 
